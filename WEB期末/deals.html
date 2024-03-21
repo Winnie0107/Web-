@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>系學會網頁系統</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-woox-travel.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+<!--
+
+TemplateMo 580 Woox Travel
+
+https://templatemo.com/tm-580-woox-travel
+
+-->
+  </head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="index.html" class="logo">
+                        <img src="assets/images/logo.png" alt="">
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                      <li><a href="index.html">首頁</a></li>
+                      <li><a href="about.html" >活動報名專區</a></li>
+                      <li><a href="deals.html" class="active">權限管理</a></li>
+                      <li><a href="reservation.html">會員管理</a></li>
+                    </ul>   
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div class="page-heading">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h4>Authority Management</h4>
+          <h2>權限管理</h2>
+          <p><font color="white" size="4">管理各個帳號使用權限</font></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="search-form">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <form id="search-form" name="gs" method="submit" role="search" action="#">
+            <div class="row">
+              <div class="col-lg-2">
+                <h4>Sort Deals By:</h4>
+              </div>
+              <div class="col-lg-4">
+                  <fieldset>
+                      <select name="Location" class="form-select" aria-label="Default select example" id="chooseLocation" onChange="this.form.click()">
+                          <option selected>會員</option>
+                          <option type="checkbox" name="option1" value="Italy">管理者</option>
+                          
+                      </select>
+                  </fieldset>
+              </div>
+              <div class="col-lg-4">
+                <fieldset>
+                  <label for="Number" class="form-label"><font color="white">編號:</font></label>
+                  <input type="text" name="Number" class="Number" placeholder="例: 12345" autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-2">                        
+                  <fieldset>
+                      <button class="border-button">查詢權限</button>
+                  </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="amazing-deals">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-lg-6 col-sm-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="image">
+                  <img src="assets/images/A.jpg" alt="" width="200" height="400">
+                </div>
+              </div>
+              <div class="col-lg-6 align-self-center">
+                <div class="content">
+                  <h4><font size="5">會員</font></h4>
+                  <div class="row">
+                    <div class="col-6">
+                      <i class="fa fa-clock"></i>
+                      <span class="list">90 Days</span>
+                    </div>
+                    <div class="col-6">
+                      <i class="fa fa-map"></i>
+                      <span class="list">Daily Places</span>
+                    </div>
+                  </div>
+                  <p>能報名活動、收到第一手消息</p>
+                  <div class="main-button">
+                    <a href="reservation.html">修改會員權限</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="image">
+                  <img src="assets/images/C.jpg" alt="" width="200" height="400">
+                </div>
+              </div>
+              <div class="col-lg-6 align-self-center">
+                <div class="content">
+                  <h4><font size="5">管理者</font></h4>
+                  <div class="row">
+                    <div class="col-6">
+                      <i class="fa fa-clock"></i>
+                      <span class="list">1 year</span>
+                    </div>
+                    <div class="col-6">
+                      <i class="fa fa-map"></i>
+                      <span class="list">Daily Places</span>
+                    </div>
+                  </div>
+                  <p>可下載及查看活動報名表單</p>
+                  <div class="main-button">
+                    <a href="reservation.html">修改管理者權限</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  
+
+  <div class="call-to-action">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <h2>聯絡資訊</h2>
+          <h4><em><font color:"white" size="3">新北市新莊區242中正路510號 利瑪竇大樓LM306</font></em></h4>
+          <h4><em><font color:"white" size="3">大學部秘書 TEL：+886-2-2905-2666</font></em></h4>
+          <h4><em><font color:"white" size="3">碩士班秘書 TEL：+886-2-2905-2940 / FAX：+886-2-2905-2182</font></em></h4>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/wow.js"></script>
+  <script src="assets/js/tabs.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+  <script>
+    $(".option").click(function(){
+      $(".option").removeClass("active");
+      $(this).addClass("active"); 
+    });
+  </script>
+
+  </body>
+
+</html>
