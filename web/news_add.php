@@ -23,7 +23,7 @@ if(mysqli_query($link,$sql)){
 ?>
  <script>
         alert("新增公告失敗");
-        location.href="announcement.php";
+        location.href="首頁1.php";
     </script>
 <?php
 
