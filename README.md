@@ -14,10 +14,8 @@
 ![image](https://github.com/Winnie0107/Web-/assets/131575653/30a95579-938e-41b2-a009-a4cc0c28f99f)
 ![image](https://github.com/Winnie0107/Web-/assets/131575653/5bf65abd-d714-4330-a53e-2177f61709e8)
 ![image](https://github.com/Winnie0107/Web-/assets/131575653/2b43e6d7-96ae-42d2-9b93-9c3c14daf7c9)
+登入成功跳轉畫面。(若登入失敗則顯示登入失敗的訊息，並跳回登入頁面）
 ![image](https://github.com/Winnie0107/Web-/assets/131575653/836e9ce2-ea26-4cd1-b1bb-1e0c7bc2cfa5)
-
-登入成功跳轉畫面（若登入失敗則顯示登入失敗的訊息，並跳回登入頁面）
-![image](https://github.com/Winnie0107/Web-/assets/131575653/48e2bbc3-5ede-42cf-be51-1861311ba068)
 
 管理者登入後可見右上方可以查看「活動報名狀況」、「權限管理」、「會員管理」、「登出」
 ![image](https://github.com/Winnie0107/Web-/assets/131575653/f8f2c047-e747-44c6-8919-9da8fc8718e6)
